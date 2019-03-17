@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.smartgo.MapsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <include layout="@layout/content_maps" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/fab_margin">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabMaps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/add"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutReport"
+            android:visibility="invisible"
+            android:clickable="false"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_above="@id/fabMaps">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/fab_margin"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:background="#000000"/>
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/report"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/layoutReport"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/layoutClear"
+            android:visibility="invisible"
+            android:clickable="false">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/fab_margin"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:background="#000000"/>
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/trash"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/layoutClear"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/layoutRoute"
+            android:visibility="invisible"
+            android:clickable="false">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Navigate"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/fab_margin"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:background="#000000"/>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabRoute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/navigation"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/layoutRoute"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/layoutSend"
+            android:visibility="invisible"
+            android:clickable="false">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/fab_margin"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:background="#000000"/>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/send"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
