@@ -1,7 +1,7 @@
 # SmartGo
 - This navigation device will help you avoid accident because it will warning when you need to turn left/right/around,.. by led 
 
-- As the plan : We will use STM8L , GPS L70 , Bluetooth HM-10 , Oled (Don't need) ,Led ,.. This device is very low energy
+- As the plan : We will use STM8L , GPS L70 , Bluetooth HM-10 , Oled (Don't need) ,Led ,.. These devices are very low energy
 
 #How does it works?
 + Search where to go and then find the direction on Mobile application
@@ -17,7 +17,7 @@
 
 - My video on youtube (I can't reup from my fanpage) : https://www.youtube.com/watch?v=8A_7Z6tfcuM&amp;t=0
 
-# In video is a prototype , when you come to a T-Junction or Crossroad, if you don't know which way you have to go ,you will look at to the device -> Maybe we don't need a LCD as the video
+# In video is a prototype, normally when you come to a T-Junction or Crossroad, if you don't know which way you have to go ,you will look at to the device -> Maybe we don't need a LCD as the video
 
 + This is a video demo for IOT HACKATHON 2017 contest is organised by Viettel Corporation in VietNam  
 + This is a video demo for SMART CITY BINH DUONG 2018 contest is organised at EIU (Eastern International University)
