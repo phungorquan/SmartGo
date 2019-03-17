@@ -19,5 +19,6 @@
 
 # In video is a prototype , when you come to a T-Junction or Crossroad, if you don't know which way you have to go ,you will look at to the device -> Maybe we don't need a LCD as the video
 
-# This video is a demo for IOT HACKATHON 2017 contest is organised by Viettel Corporation in VietNam  
++ This is a video demo for IOT HACKATHON 2017 contest is organised by Viettel Corporation in VietNam  
++ This is a video demo for SMART CITY BINH DUONG 2018 contest is organised at EIU (Eastern International University)
 
