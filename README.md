@@ -3,7 +3,7 @@
 
 - As the plan : We will use STM8L , GPS L70 , Bluetooth HM-10 , Oled (Don't need) ,Led ,.. These devices are very low energy
 
-#How does it works?
+# How does it works?
 + Search where to go and then find the direction on Mobile application
 + Turn on SmartGo device to prepare receive data
 + After send data ,SmartGo save data to Flash and turn off Bluetooh to save energy
@@ -17,6 +17,7 @@
 
 - My video on youtube (I can't reup from my fanpage) : https://youtu.be/0KTy81TQKIM
 
+# Contest 
 !!! In video is a prototype, normally when you come to a T-Junction or Crossroad, if you don't know which way you have to go ,you will look at to the device -> Maybe we don't need a LCD as the video
 
 + This is a video demo for IOT HACKATHON 2017 contest is organised by Viettel Corporation in VietNam  
